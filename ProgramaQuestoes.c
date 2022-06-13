@@ -104,11 +104,11 @@ void Questao09(){
 	scanf("%f", &macas);
 	if (macas < 12){
 		custo = macas*1.30;
-		printf("As maças iram csta RS %.2f\n", custo);
+		printf("As maÃ§as iram csta RS %.2f\n", custo);
 	}
 	if (macas >= 12){
 		custo = macas*1;
-		printf("As maças iram csta RS %.2f\n", custo);
+		printf("As maÃ§as iram csta RS %.2f\n", custo);
 	}
 }
 void Questao10(){
@@ -262,9 +262,9 @@ int main()
 		case 11:
 			Questao11();
 			break;	
-        case 12:
-        	Questao12();
-        	break;
+         	case 12:
+        		Questao12();
+        		break;
 		case 13:
 			Questao13();
 			break;
